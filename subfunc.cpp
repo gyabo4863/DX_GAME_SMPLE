@@ -198,7 +198,18 @@ void sub_cls(nRGB rgb)
 	xy.p1.x = 0;
 	xy.p1.y = 0;
 	xy.p2.x = 640;
-	xy.p2.y = 400;
+	xy.p2.y = 480;
 
 	sub_drowBox(xy, rgb, TRUE); // バックグラウンドで塗りつぶし
+}
+
+int sub_Random(int st, int mx)
+{
+
+	int u = rand() % (mx - st) + st;
+	//char numStr[1028];
+	//sprintf(numStr, "%d:%d[%d\n",st,mx, u);
+	//OutputDebugString(numStr);
+
+	return u;
 }

@@ -128,5 +128,6 @@ extern int sub_drowImg(IXY, bool);
 extern int sub_drowString(SXY, nRGB, int, char*);
 extern int sub_cFont(int, char*);
 extern int sub_drowFormat(FXY, nRGB, const TCHAR*, ...); // ‰ñ‹A•¶Žš—ñ‚ª˜AŒg‚³‚ê‚È‚¢
+extern int sub_Random(int, int);
 
 #endif
